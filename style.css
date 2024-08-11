@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.header {
+    background: linear-gradient(0deg, #111111 0%, #777777 100%);
+
+}
+ 
+.header .navbar {
+    padding-top: 57px;
+    margin-left: 145px;
+    margin-right: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 97px;
+
+}
+
+.header .navbar a {
+    text-decoration: none;
+
+}
+
+.header .navbar .nav-icon a {
+    font-family: "Inter", sans-serif;
+    color: #E6533C;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.header .navbar .nav-items {
+    border-radius: 39px;
+
+    width: 465px;
+    height: 46px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+
+}
+
+.header .navbar .nav-items .home {
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px;
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    margin-right: 56px;
+    margin-left: 4px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header .navbar .nav-items .service {
+    font-weight: 400;
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    margin-right: 56px;
+    font-size: 18px;
+}
+
+.header .navbar .nav-items .contact {
+    font-weight: 400;
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    margin-right: 56px;
+    font-size: 18px;
+}
+
+.header .navbar .nav-items .about {
+    font-weight: 400;
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+
+}
+.header .navbar .nav-icon .icon{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 576px){
+
+
+    .header .navbar{
+        margin-left: 20px;
+        padding-top: 52px;
+          
+    }
+    .header .navbar .nav-items{
+        display:none;
+    }
+
+        .header .navbar .nav-icon{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+         .header .navbar .nav-icon .icon {
+            display: flex;
+            margin-left: 200px;
+            font-size: 24px;
+            color: white;
+            align-items: center;
+
+        }
+}
+
+
+
+
+
+
