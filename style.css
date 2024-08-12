@@ -1,3 +1,9 @@
+@font-face {
+    src: url(./fonts/miama/Miama.ttf) format('truetype');
+    font-family: 'Miama';
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,20 +11,20 @@
     outline: 0;
 }
 
+
 .header {
-    background: linear-gradient(0deg, #111111 0%, #777777 100%);
+    background: linear-gradient(0deg, #111111 10%, #333131 100%);
 
 }
- 
+
 .header .navbar {
-    padding-top: 57px;
+    padding-top: 50px;
     margin-left: 145px;
     margin-right: 145px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 97px;
-
 }
 
 .header .navbar a {
@@ -80,43 +86,319 @@
     font-size: 18px;
 
 }
-.header .navbar .nav-icon .icon{
+
+.header .navbar .nav-icon .icon {
     display: none;
 }
 
 
+.header .banner {
+    display: flex;
+    margin-left: 145px;
+    margin-right: 135px;
+}
+
+.header .banner .banner-left {
+    margin-right: 50px;
+}
+
+.header .banner .banner-left .banner-headerTexts .bannerMainTexts {
+    font-family: "Inter", sans-serif;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    margin-bottom: 28px;
+}
+
+.header .banner .banner-left .banner-headerTexts .bannerMainTexts span {
+    font-family: 'Miama';
+    font-size: 108px;
+    font-weight: 400;
+}
 
 
-@media screen and (max-width: 576px){
+.header .banner .banner-left .banner-headerTexts .banner-headerDescription {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 28px;
+}
+
+.header .banner .banner-left .banner-buttons .join {
+    font-family: "Inter", sans-serif;
+    background-color: #E6533C;
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 16px 46px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+.header .banner .banner-left .banner-buttons .download {
+    font-family: "Inter", sans-serif;
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 16px 46px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+
+}
+
+.header .banner .banner-right {
+    position: relative;
+}
+
+.header .banner .banner-right img {
+    z-index: 0;
+    width: 339px;
+    height: 570px;
+    margin-left: 165px;
+    margin-top: -80px;
+
+}
+
+.header .banner .banner-right .workout {
+
+    position: absolute;
+    top: 50px;
+    left: 380px;
+    z-index: 1;
+    width: 193px;
+    height: 98px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.header .banner .banner-right .workout .five {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    margin-left: 22px;
+    margin-top: 15px;
+
+}
+
+.header .banner .banner-right .workout .free {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    opacity: 65%;
+    margin-left: 22px;
+
+}
+
+.header .banner .banner-right .video {
+    position: absolute;
+    bottom: 70px;
+    left: 60px;
+    z-index: 1;
+    width: 206px;
+    height: 96px;
+    background-color: rgba(48, 48, 48, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+}
 
 
-    .header .navbar{
-        margin-left: 20px;
-        padding-top: 52px;
-          
-    }
-    .header .navbar .nav-items{
-        display:none;
-    }
+.header .banner .banner-right .video .circle {
+    height: 40px;
+    width: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin-top: 28px;
+    margin-left: 23px;
+    margin-bottom: 28px;
+    margin-right: 12px;
+}
 
-        .header .navbar .nav-icon{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
 
-         .header .navbar .nav-icon .icon {
-            display: flex;
-            margin-left: 200px;
-            font-size: 24px;
-            color: white;
-            align-items: center;
+.header .banner .banner-right .video .videoTexts .threefifty {
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
 
-        }
+
+.header .banner .banner-right .video .videoTexts .videos {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #EFEDE8;
+    opacity: 65%;
+    margin-bottom: 20px;
+
 }
 
 
 
 
 
+
+
+@media screen and (max-width: 576px) {
+
+    /* navbar */
+    .header .navbar {
+        margin-left: 20px;
+        padding-top: 52px;
+        padding-bottom: 50px;
+    }
+
+    .header .navbar .nav-items {
+        display: none;
+    }
+
+    .header .navbar .nav-icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header .navbar .nav-icon .icon {
+        display: flex;
+        margin-left: 200px;
+        font-size: 24px;
+        color: white;
+        align-items: center;
+
+    }
+
+        .header .banner {
+            margin-left: 20px;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+    
+        .header .banner .banner-left {
+            margin-right: 0;
+            width: 100%;
+        }
+    
+        .header .banner .banner-left .banner-headerTexts .bannerMainTexts {
+            font-size: 36px;
+    
+        }
+    
+        .header .banner .banner-left .banner-headerTexts .bannerMainTexts span {
+            font-size: 48px;
+        }
+    
+        .header .banner .banner-left .banner-buttons {
+            display: flex;
+            
+    
+        }
+    
+        .header .banner .banner-left .banner-buttons .join {
+    
+            padding: 10px 60px;
+            margin-right: 10px;
+            font-size: 10px;
+    white-space: nowrap;
+        }
+    
+    
+        .header .banner .banner-left .banner-buttons .join span {
+            display: none;
+        }
+    
+        .header .banner .banner-left .banner-buttons .download {
+    white-space: nowrap;
+            padding: 10px 40px;
+            margin-left: 18px;
+            font-size: 13px;
+    
+        }
+    
+        .header .banner .banner-right {
+            margin-top: 130px;
+    
+        }
+    
+        .header .banner .banner-right img {
+            width: 270px;
+            height: 470px;
+    
+        }
+    
+        .header .banner .banner-right .workout {
+            top: -35px;
+            left: 320px;
+            width: 140px;
+            height: 70px;
+        }
+    
+        .header .banner .banner-right .workout .five {
+            font-size: 29px;
+            margin-left: 17px;
+            margin-top: 11px;
+        }
+    
+        .header .banner .banner-right .workout .free {
+    
+    
+            font-size: 8px;
+            margin-left: 17px;
+    
+        }
+    
+        .header .banner .banner-right .video {
+    
+            bottom: 205px;
+            left: 130px;
+            width: 150px;
+            height: 70px;
+    
+        }
+    
+    
+        .header .banner .banner-right .video .circle {
+            height: 28px;
+            width: 28px;
+            margin-top: 20px;
+            margin-left: 16px;
+            margin-bottom: 20px;
+            margin-right: 8px;
+        }
+    
+    
+        .header .banner .banner-right .video .videoTexts .threefifty {
+            margin-top: 14px;
+            font-size: 17px;
+            margin-bottom: 4px;
+        }
+    
+    
+        .header .banner .banner-right .video .videoTexts .videos {
+            font-size: 11px;
+            margin-bottom: 12px;
+    
+        }
+}
+
+/* navbar end */
+
+/* banner */
 
