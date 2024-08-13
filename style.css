@@ -13,7 +13,7 @@
 
 
 .header {
-    background: linear-gradient(0deg, #111111 10%, #333131 100%);
+    background: linear-gradient(0deg, #000000 0%, #333131 100%);
 
 }
 
@@ -250,6 +250,421 @@
 
 }
 
+.habits {
+    padding-top: 100px;
+    background-color: #000;
+    padding-bottom: 100px;
+
+}
+
+.habits .habitsHeader {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.habits .habitsDescription {
+    color: white;
+    opacity: 50%;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.habits .habits-images {
+    display: flex;
+    margin-left: 145px;
+    margin-right: 145px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.habits .habits-images .movement img,
+.habits .habits-images .time img,
+.habits .habits-images .practice img,
+.habits .habits-images .weight img {
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+.habits .habits-images .movement .movementHeader {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    color: white;
+}
+
+.habits .habits-images .movement .movementDescription {
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+    color: white;
+}
+
+
+
+
+.habits .habits-images .time .timeHeader {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    color: white;
+}
+
+.habits .habits-images .time .timeDescription {
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+    color: white;
+}
+
+
+
+
+.habits .habits-images .practice .practiceHeader {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    color: white;
+}
+
+.habits .habits-images .practice .practiceDescription {
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+    color: white;
+}
+
+
+.habits .habits-images .weight .weightHeader {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    color: white;
+}
+
+.habits .habits-images .weight .weightDescription {
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+    color: white;
+}
+
+.run {
+    background-color: #000;
+    padding-bottom: 100px;
+    font-family: "Inter", sans-serif;
+}
+
+.run .runItems {
+    margin-left: 145px;
+    margin-right: 145px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 1060px;
+    height: 350px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.run .runItems .runleft {
+    margin-left: 54px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.run .runItems .runleft .runHeader {
+
+    font-weight: 800;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 14px;
+
+
+}
+
+.run .runItems .runleft .runDescription {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    opacity: 50%;
+    margin-bottom: 40px;
+
+}
+
+.run .runItems .runleft .runButton {
+    text-decoration: none;
+    width: 224px;
+    height: 54px;
+    background-color: #E6533C;
+    color: white;
+    padding: 16px 70px;
+    border-radius: 42px;
+
+}
+
+
+
+.run .runItems img {
+    width: 366px;
+    height: 312px;
+    margin-right: 32px;
+}
+
+.run .runItems .mobileimg {
+    display: none;
+}
+
+
+
+
+.fitnessPlan {
+    background-color: #000;
+    padding-bottom: 225px;
+    font-family: "Inter", sans-serif;
+}
+
+.fitnessPlan .fitnessPlanItems {
+    display: flex;
+    position: relative;
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanLeft {
+    margin-left: 145px;
+    margin-right: 145px;
+    position: relative;
+
+}
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanLeft .img1 {
+    width: 350px;
+    height: 250px;
+    border-radius: 14px;
+    position: relative;
+    z-index: 1;
+    animation: moveLeftRight 3s ease-in-out infinite;
+}
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanLeft .img2 {
+    width: 350px;
+    height: 250px;
+    border-radius: 14px;
+    margin-left: 50px;
+    top: 20px;
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left: 1px;
+    animation: moveUpDown 3s ease-in-out infinite;
+    opacity: 90%;
+}
+
+@keyframes moveLeftRight {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100px);
+
+    }
+}
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(50px);
+
+    }
+}
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight {
+    margin-left: 140px;
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .plansCard {
+    display: flex;
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .fitnessPlanHeader {
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+
+
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .threeMonths {
+    color: white;
+    width: 130px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    border: 2px solid rgb(245, 80, 15);
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .threeMonths:hover {
+    transform: scale(1.1);
+
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .threeMonths i {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .threeMonths .months1 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .threeMonths .price1 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .sixMonths {
+    color: white;
+    width: 130px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    border: 2px solid rgb(245, 80, 15);
+    cursor: pointer;
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .sixMonths:hover {
+    transform: scale(1.1);
+
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .sixMonths i {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .sixMonths .months2 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .sixMonths .price2 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .eightMonths {
+    color: white;
+    width: 130px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    border: 2px solid rgb(245, 80, 15);
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .eightMonths:hover {
+    transform: scale(1.1);
+
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .eightMonths i {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .eightMonths .months3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .eightMonths .price3 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -284,121 +699,230 @@
 
     }
 
-        .header .banner {
-            margin-left: 20px;
-            flex-direction: column;
-            align-items: center;
+    /* navbar end */
+    /* banner */
+    .header .banner {
+        margin-left: 20px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .header .banner .banner-left {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .header .banner .banner-left .banner-headerTexts .bannerMainTexts {
+        font-size: 36px;
+
+    }
+
+    .header .banner .banner-left .banner-headerTexts .bannerMainTexts span {
+        font-size: 48px;
+    }
+
+    .header .banner .banner-left .banner-buttons {
+        display: flex;
+
+
+    }
+
+    .header .banner .banner-left .banner-buttons .join {
+
+        padding: 10px 60px;
+        margin-right: 10px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+
+    .header .banner .banner-left .banner-buttons .join span {
+        display: none;
+    }
+
+    .header .banner .banner-left .banner-buttons .download {
+        white-space: nowrap;
+        padding: 10px 40px;
+        margin-left: 18px;
+        font-size: 13px;
+
+    }
+
+    .header .banner .banner-right {
+        margin-top: 130px;
+
+    }
+
+    .header .banner .banner-right img {
+        width: 270px;
+        height: 470px;
+
+    }
+
+    .header .banner .banner-right .workout {
+        top: -35px;
+        left: 320px;
+        width: 140px;
+        height: 70px;
+    }
+
+    .header .banner .banner-right .workout .five {
+        font-size: 29px;
+        margin-left: 17px;
+        margin-top: 11px;
+    }
+
+    .header .banner .banner-right .workout .free {
+
+
+        font-size: 8px;
+        margin-left: 17px;
+
+    }
+
+    .header .banner .banner-right .video {
+
+        bottom: 205px;
+        left: 130px;
+        width: 150px;
+        height: 70px;
+
+    }
+
+
+    .header .banner .banner-right .video .circle {
+        height: 28px;
+        width: 28px;
+        margin-top: 20px;
+        margin-left: 16px;
+        margin-bottom: 20px;
+        margin-right: 8px;
+    }
+
+
+    .header .banner .banner-right .video .videoTexts .threefifty {
+        margin-top: 14px;
+        font-size: 17px;
+        margin-bottom: 4px;
+    }
+
+
+    .header .banner .banner-right .video .videoTexts .videos {
+        font-size: 11px;
+        margin-bottom: 12px;
+
+    }
+
+    /* banner end */
+
+    /* habits */
+    .habits .habitsHeader {
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 800;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+
+    .habits .habits-images {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .habits .habits-images .movement .movementDescription {
+        margin-top: 5px;
+        margin-bottom: 36px;
+        white-space: nowrap;
+
+    }
+
+    .habits .habits-images .time .timeDescription {
+
+        margin-top: 5px;
+        margin-bottom: 36px;
+        white-space: nowrap;
+    }
+
+    .habits .habits-images .practice .practiceDescription {
+
+        margin-top: 5px;
+        margin-bottom: 36px;
+        white-space: nowrap;
+    }
+
+    .habits .habits-images .weight .weightDescription {
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .run {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .run .runItems {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        width: 353px;
+        height: 531px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .run .runItems .runleft {
+        margin-left: 30px;
+
+    }
+
+    .run .runItems .runleft .runHeader {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .run .runItems .runleft .runDescription {
+        font-size: 14px;
+        margin-right: 30px;
+        margin-bottom: 26px;
+    }
+
+    .run .runItems .runleft .runDescription br {
+        display: none;
+    }
+
+    .run .runItems .runleft .runButton {
+        display: flex;
+        width: 287px;
+        height: 54px;
+        justify-content: center;
+
+
+    }
+
+    .run .runItems img {
+        display: none;
+    }
+
+    .run .runItems .mobileimg {
+        display: block;
+        border-radius: 18px;
+        width: 290px;
+        height: 190px;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
     
-        }
-    
-        .header .banner .banner-left {
-            margin-right: 0;
-            width: 100%;
-        }
-    
-        .header .banner .banner-left .banner-headerTexts .bannerMainTexts {
-            font-size: 36px;
-    
-        }
-    
-        .header .banner .banner-left .banner-headerTexts .bannerMainTexts span {
-            font-size: 48px;
-        }
-    
-        .header .banner .banner-left .banner-buttons {
-            display: flex;
-            
-    
-        }
-    
-        .header .banner .banner-left .banner-buttons .join {
-    
-            padding: 10px 60px;
-            margin-right: 10px;
-            font-size: 10px;
-    white-space: nowrap;
-        }
-    
-    
-        .header .banner .banner-left .banner-buttons .join span {
-            display: none;
-        }
-    
-        .header .banner .banner-left .banner-buttons .download {
-    white-space: nowrap;
-            padding: 10px 40px;
-            margin-left: 18px;
-            font-size: 13px;
-    
-        }
-    
-        .header .banner .banner-right {
-            margin-top: 130px;
-    
-        }
-    
-        .header .banner .banner-right img {
-            width: 270px;
-            height: 470px;
-    
-        }
-    
-        .header .banner .banner-right .workout {
-            top: -35px;
-            left: 320px;
-            width: 140px;
-            height: 70px;
-        }
-    
-        .header .banner .banner-right .workout .five {
-            font-size: 29px;
-            margin-left: 17px;
-            margin-top: 11px;
-        }
-    
-        .header .banner .banner-right .workout .free {
-    
-    
-            font-size: 8px;
-            margin-left: 17px;
-    
-        }
-    
-        .header .banner .banner-right .video {
-    
-            bottom: 205px;
-            left: 130px;
-            width: 150px;
-            height: 70px;
-    
-        }
-    
-    
-        .header .banner .banner-right .video .circle {
-            height: 28px;
-            width: 28px;
-            margin-top: 20px;
-            margin-left: 16px;
-            margin-bottom: 20px;
-            margin-right: 8px;
-        }
-    
-    
-        .header .banner .banner-right .video .videoTexts .threefifty {
-            margin-top: 14px;
-            font-size: 17px;
-            margin-bottom: 4px;
-        }
-    
-    
-        .header .banner .banner-right .video .videoTexts .videos {
-            font-size: 11px;
-            margin-bottom: 12px;
-    
-        }
+
 }
-
-/* navbar end */
-
-/* banner */
-
