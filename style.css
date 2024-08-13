@@ -435,7 +435,7 @@
 
 .fitnessPlan {
     background-color: #000;
-    padding-bottom: 225px;
+    padding-bottom: 180px;
     font-family: "Inter", sans-serif;
 }
 
@@ -642,7 +642,6 @@
     font-size: 18px;
     font-weight: 800;
 }
-
 
 
 
@@ -920,9 +919,71 @@
     }
 
 
+.fitnessPlan .fitnessPlanItems {
+   flex-direction: column;
+   
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanLeft {
+    margin-left: 20px;
+    margin-right: 10px;
+}
 
 
+.fitnessPlan .fitnessPlanItems .fitnessPlanLeft .img1 {
+    width: 250px;
+    height: 150px;
+     
+   
+}
 
+.fitnessPlan .fitnessPlanItems .fitnessPlanLeft .img2 {
+    width: 250px;
+    height: 150px;
+
+
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight {
+    margin-left: 0px;
+   
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .fitnessPlanHeader {
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+     
+
+
+}
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .threeMonths{
+    margin-left: 40px;
+    width: 100px;
+    height: 170px;
+}
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .sixMonths {
     
+    width: 100px;
+    height: 170px;
+}
+
+
+.fitnessPlan .fitnessPlanItems .fitnessPlanRight .eightMonths {
+     
+    width: 100px;
+    height: 170px;
+}
+
+
+
+
+
+
+
 
 }
