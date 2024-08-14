@@ -644,24 +644,194 @@
 }
 
 
+.bmi {
+    background-color: #000;
+    font-family: "Inter", sans-serif;
+}
+
+.bmi .bmiHeader {
+    margin-left: 384px;
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.bmi .bmiDescription {
+    margin-left: 384px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 50%;
+    margin-bottom: 88px;
+
+}
+
+.bmi .bmiChart {
+    width: 100%;
+    height: 487px;
+    background-color: #222222;
+    display: flex;
+}
+
+.bmi .bmiChart .bmileft {
+    margin-left: 145px;
+    margin-right: 160px;
+}
+
+.bmi .bmiChart .bmileft .bmiChartHeader {
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 52px;
+}
+
+
+.bmi .bmiChart .bmileft table {
+    color: #ffffff;
+    border-collapse: collapse;
+
+}
+
+.bmi .bmiChart .bmileft td,
+th {
+    border: 1px solid rgb(53, 52, 52);
+    padding: 10px 15px;
+}
+
+.bmi .bmiChart .bmileft td {
+    opacity: 50%;
+}
+
+.bmi .bmiChart .bmiright {
+    margin-top: 52px;
+}
+
+
+.bmi .bmiChart .bmiright .bmicalculate {
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+
+.bmi .bmiChart .bmiright .bmiCalDesc {
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 34px;
+    color: white;
+
+}
 
 
 
+.bmi .bmiChart .bmiright .bmicalculator .bmiHW .height {
+    width: 282px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.bmi .bmiChart .bmiright .bmicalculator .bmiHW .height::placeholder {
+    color: white;
+    opacity: 60%;
+    padding-left: 20px;
+
+}
 
 
 
+.bmi .bmiChart .bmiright .bmicalculator .bmiHW .weight {
+    width: 282px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.bmi .bmiChart .bmiright .bmicalculator .bmiHW .weight::placeholder {
+    color: white;
+    opacity: 60%;
+    padding-left: 20px;
+
+}
+
+
+.bmi .bmiChart .bmiright .bmicalculator .bmiAS .age {
+    width: 282px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    color: #fff;
+}
+
+
+.bmi .bmiChart .bmiright .bmicalculator .bmiAS .age::placeholder {
+    color: white;
+    opacity: 60%;
+    padding-left: 20px;
+}
+
+
+.bmi .bmiChart .bmiright .bmicalculator .bmiAS form #gender {
+    width: 282px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    color: rgba(255, 255, 255, .5);
+
+}
+
+.bmi .bmiChart .bmiright .bmicalculator .bmiAS form #gender option {
+    color: #E6533C;
+}
 
 
 
+.bmi .bmiChart .bmiright .bmicalculator .bmiActivity form #activity {
+    width: 577px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 50px;
+
+}
+
+.bmi .bmiChart .bmiright .bmicalculator .bmiActivity form #activity option {
+    color: #E6533C;
+}
 
 
+.bmi .bmiChart .bmiright .bmicalculator .calculateBtn{
+     
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #E6533C;
+    color: white;
+    border-radius: 42px;
+    padding: 16px 70px;
 
-
-
-
-
-
-
+}
 
 
 
@@ -917,71 +1087,62 @@
     }
 
 
-.fitnessPlan .fitnessPlanItems {
-   flex-direction: column;
-   
-}
+    .fitnessPlan .fitnessPlanItems {
+        flex-direction: column;
 
-.fitnessPlan .fitnessPlanItems .fitnessPlanLeft {
-    margin-left: 20px;
-    margin-right: 10px;
-}
+    }
 
-
-.fitnessPlan .fitnessPlanItems .fitnessPlanLeft .img1 {
-    width: 250px;
-    height: 150px;
-     
-   
-}
-
-.fitnessPlan .fitnessPlanItems .fitnessPlanLeft .img2 {
-    width: 250px;
-    height: 150px;
+    .fitnessPlan .fitnessPlanItems .fitnessPlanLeft {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
 
 
-}
-
-.fitnessPlan .fitnessPlanItems .fitnessPlanRight {
-    margin-left: 0px;
-   
-}
-
-.fitnessPlan .fitnessPlanItems .fitnessPlanRight .fitnessPlanHeader {
-    font-weight: 800;
-    font-size: 30px;
-    margin-top: 180px;
-    margin-bottom: 20px;
-     
+    .fitnessPlan .fitnessPlanItems .fitnessPlanLeft .img1 {
+        width: 250px;
+        height: 150px;
 
 
-}
+    }
+
+    .fitnessPlan .fitnessPlanItems .fitnessPlanLeft .img2 {
+        width: 250px;
+        height: 150px;
 
 
-.fitnessPlan .fitnessPlanItems .fitnessPlanRight .threeMonths{
-    margin-left: 40px;
-    width: 100px;
-    height: 170px;
-}
+    }
 
-.fitnessPlan .fitnessPlanItems .fitnessPlanRight .sixMonths {
-    
-    width: 100px;
-    height: 170px;
-}
+    .fitnessPlan .fitnessPlanItems .fitnessPlanRight {
+        margin-left: 0px;
 
+    }
 
-.fitnessPlan .fitnessPlanItems .fitnessPlanRight .eightMonths {
-     
-    width: 100px;
-    height: 170px;
-}
+    .fitnessPlan .fitnessPlanItems .fitnessPlanRight .fitnessPlanHeader {
+        font-weight: 800;
+        font-size: 30px;
+        margin-top: 180px;
+        margin-bottom: 20px;
 
 
 
+    }
 
 
+    .fitnessPlan .fitnessPlanItems .fitnessPlanRight .threeMonths {
+        margin-left: 40px;
+        width: 100px;
+        height: 170px;
+    }
+
+    .fitnessPlan .fitnessPlanItems .fitnessPlanRight .sixMonths {
+        width: 100px;
+        height: 170px;
+    }
 
 
+    .fitnessPlan .fitnessPlanItems .fitnessPlanRight .eightMonths {
+        width: 100px;
+        height: 170px;
+    }
 
 }
