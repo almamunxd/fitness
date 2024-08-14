@@ -1239,7 +1239,9 @@ th {
 
 
 @media screen and (max-width: 576px) {
-
+body{
+    overflow-x: hidden;
+}
     /* navbar */
     .header .navbar {
         margin-left: 20px;
