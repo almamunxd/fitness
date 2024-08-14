@@ -1121,14 +1121,116 @@ th {
     z-index: 2;
     bottom: 40px;
     margin-left: 15px;
+
 }
 
 
+.footer {
+    background-color: #272626;
+    width: 100%;
+    padding-top: 58px;
+    padding-left: 145px;
+    padding-right: 145px;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 40px;
+}
+
+.footer .footerI {
+    display: flex;
+}
+
+.footer .footerI .footerLeft {
+    margin-right: 102px;
+}
+
+.footer .footerI .footerLeft .footerIcon {
+    color: #E6533C;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.footer .footerI .footerLeft .footerdes {
+    color: white;
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 152px;
+}
+
+.footer .footerI .footerRight {
+    display: flex;
+     
+
+}
+
+.footer .footerI .footerRight .footerItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 152px;
+    width: 100%;
+
+}
+
+.footer .footerI .footerRight .footergetItems,
+.footer .footerI .footerRight .footergetItems2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.footer .footerI .footerRight .footergetItems a,
+.footer .footerI .footerRight .footergetItems2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 50%;
+    margin-bottom: 20px;
+
+}
+
+.footer .footerI .footerRight .footergetItems .started,
+.footer .footerI .footerRight .footergetItems2 .started2 {
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 39px;
+    opacity: 100%;
+
+}
+
+.footer .footerI .footerRight .footergetItems .service,
+.footer .footerI .footerRight .footergetItems .Contact,
+.footer .footerI .footerRight .footergetItems .Affiliate,
+.footer .footerI .footerRight .footergetItems .About,
+.footer .footerI .footerRight .footergetItems2 .Fitness,
+.footer .footerI .footerRight .footergetItems2 .Platform,
+.footer .footerI .footerRight .footergetItems2 .Workout,
+.footer .footerI .footerRight .footergetItems2 .App {
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 50%;
+    margin-bottom: 20px;
+
+}
+
+.footer .footerI .footerRight .footergetItems2 {
+    margin-right: 0;
+
+}
 
 
-/*  */
-
-
+.footer .footercopy{
+    font-weight: 400;
+        font-size: 18px;
+        opacity: 50%;
+        margin-bottom: 20px;
+        color: white;
+        text-align: center;
+        margin-top: 36px;
+}
 
 
 
@@ -1631,6 +1733,41 @@ th {
     }
 
 
+.footer {
+    
+    padding-top: 44px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
 
+.footer .footerI {
+    flex-direction: column;
+}
+
+
+.footer .footerI .footerLeft {
+    margin-right: 0;
+}
+
+
+.footer .footerI .footerLeft .footerdes {
+    margin-bottom: 30px;
+}
+
+ .footer .footerI .footerRight .footerItems {
+     flex-direction: column;
+      
+     
+ }
+ 
+.footer .footerI .footerRight .footergetItems .started,
+.footer .footerI .footerRight .footergetItems2 .started2 {
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 30px;
+    opacity: 100%;
+
+}
 
 }
