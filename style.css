@@ -821,8 +821,8 @@ th {
 }
 
 
-.bmi .bmiChart .bmiright .bmicalculator .calculateBtn{
-     
+.bmi .bmiChart .bmiright .bmicalculator .calculateBtn {
+
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
@@ -1145,4 +1145,136 @@ th {
         height: 170px;
     }
 
+
+
+    .bmi .bmiHeader {
+        margin-left: 20px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .bmi .bmiDescription {
+        margin-left: 20px;
+        font-size: 14px;
+        margin-bottom: 32px;
+
+    }
+
+
+
+
+
+    .bmi .bmiChart {
+        flex-direction: column;
+        height: 772px;
+    }
+
+    .bmi .bmiChart .bmileft {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
+    .bmi .bmiChart .bmileft .bmiChartHeader {
+
+        font-size: 16px;
+        margin-bottom: 23px;
+        margin-top: 32px;
+    }
+
+
+
+    .bmi .bmiChart .bmiright {
+        margin-top: 42px;
+    }
+
+    .bmi .bmiChart .bmiright .bmicalculate {
+        font-size: 16px;
+        margin-bottom: 13px;
+        margin-left: 20px;
+    }
+
+    .bmi .bmiChart .bmiright .bmiCalDesc {
+        margin-left: 20px;
+        margin-bottom: 30px;
+
+
+    }
+
+    .bmi .bmiChart .bmiright .bmicalculator .bmiHW {
+
+        justify-content: space-between;
+    }
+
+    .bmi .bmiChart .bmiright .bmicalculator .bmiHW .height {
+        width: 170px;
+        height: 48px;
+        margin-left: 20px;
+        margin-bottom: 12px;
+    }
+
+
+
+    .bmi .bmiChart .bmiright .bmicalculator .bmiHW .weight {
+        width: 170px;
+        height: 48px;
+        margin-right: 20px;
+        margin-bottom: 12px;
+
+    }
+
+    .bmi .bmiChart .bmiright .bmicalculator .bmiAS {
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+
+    .bmi .bmiChart .bmiright .bmicalculator .bmiAS .age {
+        width: 170px;
+
+        margin-bottom: 12px;
+        margin-right: 12px;
+
+    }
+
+    .bmi .bmiChart .bmiright .bmicalculator .bmiAS form #gender {
+        width: 170px;
+        margin-bottom: 12px;
+        margin-right: 20px;
+    }
+
+
+
+
+    .bmi .bmiChart .bmiright .bmicalculator .bmiActivity form #activity {
+        width: 385px;
+        height: 48px;
+        margin-bottom: 12px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+
+    }
+
+
+    .bmi .bmiChart .bmiright .bmicalculator .calculateBtn {
+        margin-left: 20px;
+        font-size: 18px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
