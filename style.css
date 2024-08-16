@@ -63,6 +63,12 @@
     font-size: 18px;
 }
 
+.header .navbar .nav-items .home:hover{
+    background-color: #ffffff;
+    color: #E6533C;
+  
+}
+
 .header .navbar .nav-items .service {
     font-weight: 400;
     color: #ffff;
@@ -70,6 +76,8 @@
     margin-right: 56px;
     font-size: 18px;
 }
+
+ 
 
 .header .navbar .nav-items .contact {
     font-weight: 400;
@@ -142,6 +150,13 @@
     margin-right: 14px;
 }
 
+.header .banner .banner-left .banner-buttons .join:hover{
+    background-color: rgb(255, 255, 255);
+    color: #E6533C;
+}
+
+
+
 .header .banner .banner-left .banner-buttons .download {
     font-family: "Inter", sans-serif;
     border-radius: 42px;
@@ -155,6 +170,11 @@
     font-weight: 600;
     background-color: transparent;
 
+}
+
+.header .banner .banner-left .banner-buttons .download:hover{
+    color: #E6533C;
+    background-color: #ffffff;
 }
 
 .header .banner .banner-right {
@@ -249,6 +269,8 @@
     margin-bottom: 20px;
 
 }
+
+/* header end */
 
 .habits {
     padding-top: 100px;
@@ -363,6 +385,8 @@
     color: white;
 }
 
+/* habits end */
+
 .run {
     background-color: #000;
     padding-bottom: 100px;
@@ -415,10 +439,15 @@
     color: white;
     padding: 16px 70px;
     border-radius: 42px;
+    font-weight: 800;
 
 }
 
-
+.run .runItems .runleft .runButton:hover{
+    background-color: #ffffff;
+    color: #E6533C;
+    
+}
 
 .run .runItems img {
     width: 366px;
@@ -431,7 +460,7 @@
 }
 
 
-
+/* run end */
 
 .fitnessPlan {
     background-color: #000;
@@ -643,7 +672,7 @@
     font-weight: 800;
 }
 
-
+/* fitnessPlan end */
 .bmi {
     background-color: #000;
     font-family: "Inter", sans-serif;
@@ -831,6 +860,11 @@ th {
     border-radius: 42px;
     padding: 16px 70px;
 
+}
+
+.bmi .bmiChart .bmiright .bmicalculator .calculateBtn:hover{
+    color: #E6533C;
+    background-color: white;
 }
 
 /* bmi end */
